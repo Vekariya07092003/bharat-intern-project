@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pexels-bob-clark-21492.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 1px;
+    border: 1px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px 10px 51px 36px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 51px 36px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 51px 36px rgba(0,0,0,0.75);
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  label,
+  input,
+  button {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  input {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+    background-color: #331f4f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: rgb(37, 97, 50);
+  }
+
+  label{
+    color: #fff;
+  }
